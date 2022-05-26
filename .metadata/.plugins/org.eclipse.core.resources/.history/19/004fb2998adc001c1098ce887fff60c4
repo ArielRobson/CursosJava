@@ -1,0 +1,19 @@
+package br.com.cod3r.calc.visao;
+
+
+import java.awt.GridBagLayout;
+
+import javax.swing.JPanel;
+
+@SuppressWarnings("serial")
+public class Teclado extends JPanel{
+
+	public Teclado() {
+		
+		GridBagLayout layout = new GridBagLayout();
+		GridBagLayout c = new GridBagLayout();
+		
+		setLayout(layout);
+		
+	}
+}

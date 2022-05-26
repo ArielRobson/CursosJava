@@ -1,0 +1,18 @@
+package ExerciciosJava;
+
+import java.util.Scanner;
+
+public class Raio {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Digite o valor do raio: ");
+		double raio = sc.nextDouble();
+		
+		double resultado = 2 * 3.14 * raio;
+		System.out.println("A área do Raio é: " + resultado);
+
+		sc.close();
+	}
+}
